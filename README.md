@@ -21,7 +21,7 @@ A full-stack Zerodha-inspired stock trading platform clone built using the MERN 
 
 ## Live Demo
 
-(Add deployed link here)
+https://trade-nest-krq9.vercel.app/
 
 ## GitHub Repository
 
