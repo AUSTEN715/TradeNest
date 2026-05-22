@@ -7,7 +7,7 @@ function OpenAccount() {
                     <p>
                         Modern platforms and apps, ₹0 investments, and flat ₹20 intraday and F&O trades.
                     </p>
-                    <button type="button" className="btn btn-primary mt-2 ps-5 pe-5 ">Signup now</button>
+                    <a href="https://trade-nest-sepia.vercel.app/"><button type="button" className="btn btn-primary mt-2 ps-5 pe-5 ">Signup now</button></a>
                 </div>
             </div>
         </div>

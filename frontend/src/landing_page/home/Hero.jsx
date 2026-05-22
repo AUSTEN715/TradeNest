@@ -9,7 +9,7 @@ function Hero() {
                 <div className="col-12 mt-5 mb-5 text-center">
                     <h1>Invest in everything</h1>
                     <p>Online platform to invest in stocks, derivatives, mutual funds, and more</p>
-                    <button type="button" className="btn btn-primary mt-3 ps-5 pe-5 ">Signup now</button>
+                    <a href="https://trade-nest-sepia.vercel.app/"><button type="button" className="btn btn-primary mt-3 ps-5 pe-5 ">Signup now</button></a>
                 </div>
             </div>
         </div>

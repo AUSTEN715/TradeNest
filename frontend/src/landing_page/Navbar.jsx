@@ -22,9 +22,9 @@ function NavBar() {
           <form class="d-flex" role="search">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" to="/signup">
+                <a class="nav-link active" aria-current="page" href="https://trade-nest-sepia.vercel.app/">
                   Signup
-                </Link>
+                </a>
               </li>
               <li class="nav-item ">
                 <Link class="nav-link active" to="/about">
