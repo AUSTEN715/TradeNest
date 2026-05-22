@@ -18,7 +18,7 @@ const Home = () => {
   useEffect(() => {
     const verifyCookie = async () => {
       const { data } = await axios.post(
-        "http://localhost:3000/verify",
+        "https://tradenest-backend-uhug.onrender.com/verify",
         {},
         { withCredentials: true },
       );

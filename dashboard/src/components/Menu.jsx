@@ -23,7 +23,7 @@ const Menu = ({ username }) => {
   const handleLogout = async () => {
     try {
       const { data } = await axios.post(
-        "http://localhost:3000/logout",
+        "https://tradenest-backend-uhug.onrender.com/logout",
         {},
         { withCredentials: true },
       );

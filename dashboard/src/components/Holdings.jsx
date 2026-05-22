@@ -11,7 +11,7 @@ const Holdings = () => {
   useEffect(() => {
     // FIX 1: Send the cookie so the backend knows who you are!
     axios
-      .get("http://localhost:3000/allHoldings", { withCredentials: true })
+      .get("https://tradenest-backend-uhug.onrender.com/allHoldings", { withCredentials: true })
       .then((res) => {
         setAllHoldings(res.data);
         setIsVerify(true);

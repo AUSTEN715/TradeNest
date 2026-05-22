@@ -8,7 +8,7 @@ const Orders = () => {
   const [isVerify, setIsVerify] = useState(false);
 
   useEffect(() => {
-    axios.get("http://localhost:3000/allOrders", {withCredentials: true})
+    axios.get("https://tradenest-backend-uhug.onrender.com/allOrders", {withCredentials: true})
     .then((res) => {
       setAllOrders(res.data);
       setIsVerify(true);

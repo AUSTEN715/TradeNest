@@ -24,7 +24,7 @@ const BuyActionWindow = ({ uid }) => {
       });
 
   const handleBuyClick = async() => {
-    const {data} = await axios.post("http://localhost:3000/newOrder", {
+    const {data} = await axios.post("https://tradenest-backend-uhug.onrender.com/newOrder", {
       name: uid,
       qty: stockQuantity,
       price: stockPrice,
@@ -34,7 +34,7 @@ const BuyActionWindow = ({ uid }) => {
     const {message} = data;
       handleSuccess(message);
 
-    axios.post("http://localhost:3000/allHoldings/buy", {
+    axios.post("https://tradenest-backend-uhug.onrender.com/allHoldings/buy", {
       name: uid,
       qty: stockQuantity,
       price: stockPrice,
