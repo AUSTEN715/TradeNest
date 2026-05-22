@@ -18,7 +18,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: ["https://trade-nest-sepia.vercel.app"],
     credentials: true, // allows the frontend to send cookies and all
   }),
 ); // cross connections
